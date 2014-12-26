@@ -15,5 +15,5 @@ sips --resampleWidth 180 "${f}/${1}" --out "${f}/icon60@3x.png"
 sips --resampleWidth 76 "${f}/${1}" --out "${f}/icon76.png"
 sips --resampleWidth 152 "${f}/${1}" --out "${f}/icon76@2x.png"
 
-sips --resampleWidth 512 "${f}/${1}" --out "${f}/iTunesArtwork"
-sips --resampleWidth 1024 "${f}/${1}" --out "${f}/iTunesArtwork@2x"
+sips --resampleWidth 512 "${f}/${1}" --out "${f}/iTunesArtwork.png"
+sips --resampleWidth 1024 "${f}/${1}" --out "${f}/iTunesArtwork@2x.png"
